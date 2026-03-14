@@ -1,15 +1,15 @@
 @font-face {
     font-family: Covanro;
-    src: url(fonts/Covanro/Covanro.otf);
+    src: url(fonts/Covanro.otf);
 
     font-family: NordBook;
-    src: url(fonts/Nord/Nord-Book.ttf);
+    src: url(fonts/Nord-Book.ttf);
 
     font-family: NordLight;
-    src: url(fonts/Nord/Nord-Light.ttf);
+    src: url(fonts/Nord-Light.ttf);
 
     font-family: QurovaLight;
-    src: url(fonts/Qurova/QurovaDEMO-Light-BF67a5c6380ebd4.otf);
+    src: url(fonts/Qurova-Light.otf);
 }
 
 @media (min-aspect-ratio: 1/1) {
