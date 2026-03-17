@@ -727,3 +727,26 @@
 .table-elemento.ativo .svgEletrosfera g.eletron:nth-child(7) {
     animation-duration: 15s;
 }
+
+.fadeInSite {
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+    animation: fadeIn 3.75s ease forwards;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+        z-index: 10;
+        background: rgb(0, 0, 0);
+    }
+
+    to {
+        opacity: 0;
+        z-index: -10;
+        background: rgb(10, 8, 15);
+    }
+}
