@@ -18,7 +18,7 @@ elementos.forEach(el => {
         el.classList.add("ativo")
 
         nome.innerText = el.dataset.nome
-        classificacao.innerText = "Classificacao: " + el.dataset.classificacao
+        classificacao.innerText = "Classificação: " + el.dataset.classificacao
         numero.innerText = el.dataset.numero
         massa.innerText = el.dataset.massa
         estado.innerText = el.dataset.estado
