@@ -205,9 +205,9 @@
         transform: scale(1.1);
     }
 
-    #filtro-MetaisTransicao:checked~.nav-filtroTipos .filtroMetaisTransicao:not(.tipoMetaisTransicao) {
+    #filtro-MetaisTransicao:checked~.nav-filtroTipos .filtroMetaisTransicao {
         color: #FF4040;
-        border-color: 0.1vh solid #FF4040;
+        border-bottom: 0.1vh solid #FF4040;
         transform: scale(1.1);
     }
 
